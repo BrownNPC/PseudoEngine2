@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
-
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 project(PseudoEngine2 VERSION 1.0.1)
 
 configure_file(PsConfig.h.in PsConfig.h)
@@ -90,6 +90,7 @@ target_sources(PseudoEngine2 PRIVATE
     src/psc/builtinFunctions/numeric.cpp
     src/psc/builtinFunctions/date.cpp
     src/psc/builtinFunctions/math.cpp
+    src/psc/builtinFunctions/custom.cpp
     src/psc/error.cpp
     
     src/launch/repl.cpp

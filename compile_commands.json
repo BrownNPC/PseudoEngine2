@@ -1,0 +1,362 @@
+[
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -x c++-header -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx.gch -c /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx.cxx",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx.cxx",
+  "output": "CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx.gch"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/lexer/symbolLexer.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/lexer/symbolLexer.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/lexer/symbolLexer.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/lexer/symbolLexer.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/lexer/lexer.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/lexer/lexer.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/lexer/lexer.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/lexer/lexer.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/lexer/tokens.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/lexer/tokens.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/lexer/tokens.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/lexer/tokens.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/nodes/eval/arithmetic.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/nodes/eval/arithmetic.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/nodes/eval/arithmetic.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/nodes/eval/arithmetic.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/nodes/eval/comparison.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/nodes/eval/comparison.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/nodes/eval/comparison.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/nodes/eval/comparison.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/nodes/eval/stringcat.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/nodes/eval/stringcat.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/nodes/eval/stringcat.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/nodes/eval/stringcat.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/nodes/eval/logic.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/nodes/eval/logic.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/nodes/eval/logic.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/nodes/eval/logic.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/nodes/loop/while.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/nodes/loop/while.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/nodes/loop/while.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/nodes/loop/while.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/nodes/loop/for.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/nodes/loop/for.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/nodes/loop/for.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/nodes/loop/for.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/nodes/loop/repeatUntil.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/nodes/loop/repeatUntil.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/nodes/loop/repeatUntil.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/nodes/loop/repeatUntil.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/nodes/loop/control.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/nodes/loop/control.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/nodes/loop/control.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/nodes/loop/control.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/nodes/functions/procedure.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/nodes/functions/procedure.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/nodes/functions/procedure.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/nodes/functions/procedure.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/nodes/functions/function.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/nodes/functions/function.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/nodes/functions/function.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/nodes/functions/function.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/nodes/selection/ifStatement.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/nodes/selection/ifStatement.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/nodes/selection/ifStatement.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/nodes/selection/ifStatement.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/nodes/selection/case.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/nodes/selection/case.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/nodes/selection/case.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/nodes/selection/case.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/nodes/variable/variable.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/nodes/variable/variable.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/nodes/variable/variable.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/nodes/variable/variable.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/nodes/variable/array.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/nodes/variable/array.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/nodes/variable/array.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/nodes/variable/array.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/nodes/variable/enum.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/nodes/variable/enum.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/nodes/variable/enum.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/nodes/variable/enum.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/nodes/variable/pointer.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/nodes/variable/pointer.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/nodes/variable/pointer.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/nodes/variable/pointer.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/nodes/variable/composite.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/nodes/variable/composite.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/nodes/variable/composite.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/nodes/variable/composite.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/nodes/variable/resolver.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/nodes/variable/resolver.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/nodes/variable/resolver.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/nodes/variable/resolver.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/nodes/cast.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/nodes/cast.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/nodes/cast.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/nodes/cast.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/nodes/io/file.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/nodes/io/file.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/nodes/io/file.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/nodes/io/file.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/nodes/io/io.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/nodes/io/io.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/nodes/io/io.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/nodes/io/io.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/nodes/nodeResult.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/nodes/nodeResult.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/nodes/nodeResult.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/nodes/nodeResult.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/nodes/base.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/nodes/base.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/nodes/base.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/nodes/base.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/parser/evalExprParser.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/parser/evalExprParser.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/parser/evalExprParser.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/parser/evalExprParser.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/parser/variableExprParser.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/parser/variableExprParser.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/parser/variableExprParser.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/parser/variableExprParser.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/parser/arrayOperationParser.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/parser/arrayOperationParser.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/parser/arrayOperationParser.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/parser/arrayOperationParser.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/parser/userType.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/parser/userType.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/parser/userType.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/parser/userType.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/parser/procedureParser.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/parser/procedureParser.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/parser/procedureParser.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/parser/procedureParser.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/parser/functionParser.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/parser/functionParser.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/parser/functionParser.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/parser/functionParser.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/parser/selectionParser.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/parser/selectionParser.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/parser/selectionParser.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/parser/selectionParser.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/parser/loopParser.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/parser/loopParser.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/parser/loopParser.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/parser/loopParser.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/parser/ioParser.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/parser/ioParser.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/parser/ioParser.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/parser/ioParser.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/parser/parser.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/parser/parser.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/parser/parser.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/parser/parser.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/psc/types/numeric.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/psc/types/numeric.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/psc/types/numeric.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/psc/types/numeric.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/psc/types/boolean.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/psc/types/boolean.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/psc/types/boolean.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/psc/types/boolean.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/psc/types/character.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/psc/types/character.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/psc/types/character.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/psc/types/character.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/psc/types/date.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/psc/types/date.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/psc/types/date.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/psc/types/date.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/psc/types/userType.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/psc/types/userType.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/psc/types/userType.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/psc/types/userType.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/psc/types/types.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/psc/types/types.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/psc/types/types.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/psc/types/types.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/psc/types/type_definitions.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/psc/types/type_definitions.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/psc/types/type_definitions.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/psc/types/type_definitions.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/psc/types/type_names.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/psc/types/type_names.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/psc/types/type_names.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/psc/types/type_names.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/psc/scope/block.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/psc/scope/block.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/psc/scope/block.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/psc/scope/block.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/psc/scope/context.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/psc/scope/context.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/psc/scope/context.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/psc/scope/context.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/psc/variable.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/psc/variable.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/psc/variable.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/psc/variable.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/psc/array.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/psc/array.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/psc/array.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/psc/array.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/psc/procedure.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/psc/procedure.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/psc/procedure.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/psc/procedure.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/psc/file.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/psc/file.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/psc/file.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/psc/file.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/psc/builtinFunctions/string.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/psc/builtinFunctions/string.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/psc/builtinFunctions/string.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/psc/builtinFunctions/string.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/psc/builtinFunctions/char.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/psc/builtinFunctions/char.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/psc/builtinFunctions/char.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/psc/builtinFunctions/char.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/psc/builtinFunctions/numeric.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/psc/builtinFunctions/numeric.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/psc/builtinFunctions/numeric.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/psc/builtinFunctions/numeric.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/psc/builtinFunctions/date.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/psc/builtinFunctions/date.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/psc/builtinFunctions/date.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/psc/builtinFunctions/date.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/psc/builtinFunctions/math.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/psc/builtinFunctions/math.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/psc/builtinFunctions/math.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/psc/builtinFunctions/math.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/psc/error.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/psc/error.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/psc/error.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/psc/error.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/launch/repl.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/launch/repl.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/launch/repl.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/launch/repl.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/launch/runFile.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/launch/runFile.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/launch/runFile.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/launch/runFile.cpp.o"
+},
+{
+  "directory": "/home/linus/coding/pseudocode/PseudoEngine2/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/linus/coding/pseudocode/PseudoEngine2/src -I/home/linus/coding/pseudocode/PseudoEngine2/build -std=gnu++20 -Wall -Wextra -pedantic -Winvalid-pch -include /home/linus/coding/pseudocode/PseudoEngine2/build/CMakeFiles/PseudoEngine2.dir/cmake_pch.hxx -o CMakeFiles/PseudoEngine2.dir/src/main.cpp.o -c /home/linus/coding/pseudocode/PseudoEngine2/src/main.cpp",
+  "file": "/home/linus/coding/pseudocode/PseudoEngine2/src/main.cpp",
+  "output": "CMakeFiles/PseudoEngine2.dir/src/main.cpp.o"
+}
+]

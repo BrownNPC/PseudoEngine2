@@ -10,6 +10,12 @@ namespace PSC {
         void run(PSC::Context &ctx) override;
     };
 
+    struct BuiltinFnGyatt: public Function {
+        BuiltinFnGyatt();
+
+        void run(PSC::Context &ctx) override;
+    };
+
     struct BuiltinFnRight : public Function {
         BuiltinFnRight();
 
