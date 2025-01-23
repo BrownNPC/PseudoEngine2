@@ -1,8 +1,12 @@
+
+### In this fork i made some raylib bindings.
 # PseudoEngine 2
 
 A pseudocode interpreter designed to be compatible with the Cambridge IGCSE and A level [pseudocode syntax](./Syntax.md)
 
 ![Demo](./HelloWorld.gif)
+
+
 
 ## The REPL
 The REPL stands for **R**ead **E**xecute **P**rint **L**oop and is an interface where pseudocode statements can be entered. The statement is immediately executed after it is entered and the result or potential errors are printed to the console to make it easy for debugging.
@@ -66,7 +70,22 @@ Make sure you replace `PseudoEngine2` with the actual name of the executable or 
 See [examples](./examples)
 
 ## Building
-Make sure cmake and a c++ compiler is installed, then clone the repository and inside its folder run the following commands:
+Make sure cmake and a c++ compiler is installed, then clone the repository and inside its folder 
+
+inside of `external` directory you need to download and extract a [raylib 5.5 release](https://github.com/raysan5/raylib/releases/tag/5.5)
+
+eg.
+```sh
+$ ls external/raylib-5.5_linux_amd64
+CHANGELOG  include  lib  LICENSE  README.md
+```
+
+then edit CMakeLists.txt
+```
+# Define paths to raylib
+set(RAYLIB_DIR ${CMAKE_SOURCE_DIR}/external/raylib-5.5_linux_amd64)# change this path
+```
+finally
 ```
 cmake -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build --config Release

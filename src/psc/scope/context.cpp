@@ -78,8 +78,7 @@ std::unique_ptr<Context> Context::createGlobalContext()
 
   ctx->functions.reserve(39);
 
-  // custom functions
-  ctx->addFunction(std::make_unique<PSC::BuiltinFnGyatt>());
+  ctx->addProcedure(std::make_unique<PSC::RLInitWindow>());
 
   ctx->addFunction(std::make_unique<PSC::BuiltinFnLength>());
   ctx->addFunction(std::make_unique<PSC::BuiltinFnRight>());

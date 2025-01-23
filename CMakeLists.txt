@@ -10,12 +10,25 @@ add_executable(PseudoEngine2)
 
 target_include_directories(PseudoEngine2 PRIVATE src)
 target_include_directories(PseudoEngine2 PRIVATE "${PROJECT_BINARY_DIR}")
-
 if(MSVC)
     string(REPLACE "/W3" "/W4" CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}")
 else()
     target_compile_options(PseudoEngine2 PRIVATE -Wall -Wextra -pedantic)
 endif()
+
+# Define paths to raylib
+set(RAYLIB_DIR ${CMAKE_SOURCE_DIR}/external/raylib-5.5_linux_amd64)# change this
+
+set(RAYLIB_INCLUDE_DIR ${RAYLIB_DIR}/include)
+set(RAYLIB_LIB_DIR ${RAYLIB_DIR}/lib)
+
+
+# Add the raylib include directory
+include_directories(${RAYLIB_INCLUDE_DIR})
+
+# Specify the library directory
+link_directories(${RAYLIB_LIB_DIR})
+target_link_libraries(PseudoEngine2 raylib)
 
 if (NOT WIN32)
     find_library(HAS_READLINE readline)

@@ -4,14 +4,15 @@
 namespace PSC {
     static Token errToken{TokenType::FUNCTION, 0, 0};
 
-    struct BuiltinFnLength : public Function {
-        BuiltinFnLength();
-
+// raylib functions
+    struct RLInitWindow: public Procedure{
+        RLInitWindow();
         void run(PSC::Context &ctx) override;
     };
+// end of raylib functions
 
-    struct BuiltinFnGyatt: public Function {
-        BuiltinFnGyatt();
+    struct BuiltinFnLength : public Function {
+        BuiltinFnLength();
 
         void run(PSC::Context &ctx) override;
     };
