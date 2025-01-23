@@ -17,7 +17,7 @@ else()
 endif()
 
 # Define paths to raylib
-set(RAYLIB_DIR ${CMAKE_SOURCE_DIR}/external/raylib-5.5_linux_amd64)# change this
+set(RAYLIB_DIR ${CMAKE_SOURCE_DIR}/external/raylib-5.5_win64_mingw-w64)# change this
 
 set(RAYLIB_INCLUDE_DIR ${RAYLIB_DIR}/include)
 set(RAYLIB_LIB_DIR ${RAYLIB_DIR}/lib)
@@ -28,7 +28,19 @@ include_directories(${RAYLIB_INCLUDE_DIR})
 
 # Specify the library directory
 link_directories(${RAYLIB_LIB_DIR})
-target_link_libraries(PseudoEngine2 raylib)
+target_link_libraries(PseudoEngine2 PRIVATE ${RAYLIB_LIB_DIR}/libraylib.a)
+
+if (CMAKE_SYSTEM_NAME STREQUAL "Windows" OR MINGW OR MSVC)
+    target_link_libraries(PseudoEngine2 PRIVATE   
+               
+        winmm
+        gdi32
+        opengl32
+        user32
+        kernel32
+    )
+target_link_options(PseudoEngine2 PRIVATE -static-libgcc -static-libstdc++ -static)
+endif()
 
 if (NOT WIN32)
     find_library(HAS_READLINE readline)

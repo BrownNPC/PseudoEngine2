@@ -76,10 +76,14 @@ std::unique_ptr<Context> Context::createGlobalContext()
 {
   auto ctx = std::make_unique<Context>(nullptr, "Program");
 
-  ctx->functions.reserve(39);
-
+  ctx->functions.reserve(100);
+  ctx->procedures.reserve(100);
+  //raylib functions
   ctx->addProcedure(std::make_unique<PSC::RLInitWindow>());
-
+  ctx->addProcedure(std::make_unique<PSC::RLBeginDrawing>());
+  ctx->addProcedure(std::make_unique<PSC::RLEndDrawing>());
+  ctx->addFunction(std::make_unique<PSC::RLWindowShouldClose>());
+//end of raylib functions
   ctx->addFunction(std::make_unique<PSC::BuiltinFnLength>());
   ctx->addFunction(std::make_unique<PSC::BuiltinFnRight>());
   ctx->addFunction(std::make_unique<PSC::BuiltinFnMid>());
