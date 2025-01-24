@@ -82,6 +82,7 @@ std::unique_ptr<Context> Context::createGlobalContext()
   ctx->addProcedure(std::make_unique<PSC::RLInitWindow>());
   ctx->addProcedure(std::make_unique<PSC::RLBeginDrawing>());
   ctx->addProcedure(std::make_unique<PSC::RLEndDrawing>());
+  ctx->addProcedure(std::make_unique<PSC::RLDrawText>());
   ctx->addFunction(std::make_unique<PSC::RLWindowShouldClose>());
 //end of raylib functions
   ctx->addFunction(std::make_unique<PSC::BuiltinFnLength>());

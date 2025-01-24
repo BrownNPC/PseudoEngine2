@@ -2,7 +2,7 @@
 #include "psc/procedure.h"
 
 namespace PSC {
-static Token errToken{ TokenType::FUNCTION, 0, 0 };
+static Token errToken{TokenType::FUNCTION, 0, 0};
 
 // raylib functions
 struct RLInitWindow : public Procedure {
@@ -21,7 +21,12 @@ struct RLWindowShouldClose : public Function {
   RLWindowShouldClose();
   void run(PSC::Context& ctx) override;
 };
-// end of raylib functions
+
+struct RLDrawText : public Procedure {
+  RLDrawText();
+  void run(PSC::Context& ctx) override;
+};// end of raylib functions
+
 
 struct BuiltinFnLength : public Function {
   BuiltinFnLength();
@@ -250,4 +255,4 @@ struct BuiltinFnLn : public Function {
 
   void run(PSC::Context& ctx) override;
 };
-}  // namespace PSC
+} // namespace PSC
