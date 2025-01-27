@@ -1,0 +1,113 @@
+CONSTANT MainFile = "main.pseudo"
+CONSTANT IncludeKeyword = "INCLUDE"
+CONSTANT MaxIncludes = 100
+CONSTANT OutputFilename = "COMPILED.pseudo"
+OPENFILE MainFile FOR READ
+
+TYPE IncludedFile
+	// the line number the file should be pasted on
+	DECLARE LineNumber : INTEGER
+	DECLARE Contents : STRING
+ENDTYPE
+
+DECLARE IncludedFiles : ARRAY[1 : MaxIncludes] OF STRING
+DECLARE LengthIncludedFiles : INTEGER
+
+// iterate over string using some hacky stuff and get the thing you imported
+FUNCTION ExtractImport(LineOfCode:STRING) RETURNS STRING
+	DECLARE ImportedFile : STRING
+	DECLARE Ch1 : STRING
+
+	FOR i <- 1 TO LENGTH(LineOfCode)   - LENGTH(IncludeKeyword)
+		Ch1 <- MID(LineOfCode, LENGTH(IncludeKeyword)+i, 1)
+		IF NOT Ch1 =" " THEN
+		ImportedFile <- ImportedFile & Ch1
+		ENDIF
+	NEXT i
+	
+	
+	RETURN ImportedFile &".pseudo"
+ENDFUNCTION
+
+// Returns the filename to include, otherwise ""
+FUNCTION GetInclude(LineOfCode: STRING) RETURNS STRING
+	// it cant be an include if its not long enough
+	IF NOT LENGTH(LineOfCode) >= LENGTH(IncludeKeyword) THEN
+		RETURN ""
+	ENDIF
+
+	DECLARE Keyword : STRING
+	Keyword <- LEFT(LineOfCode, LENGTH(IncludeKeyword))
+	IF Keyword = "INCLUDE" THEN
+		RETURN ExtractImport(LineOfCode)
+	ENDIF
+	RETURN ""	
+ENDFUNCTION
+
+PROCEDURE LoadFileContents(Filename: STRING, LineNumber: INTEGER)// LineNumber where to include the file
+	DECLARE FileContents :  STRING
+	DECLARE LineBuffer : STRING
+	LengthIncludedFiles <- LengthIncludedFiles+1
+	OPENFILE Filename FOR READ
+
+
+	WHILE NOT EOF(Filename)
+		READFILE Filename, LineBuffer
+		FileContents <- FileContents & LineBuffer &"\n"
+	ENDWHILE
+	IncludedFiles[LengthIncludedFiles] <- FileContents
+CLOSEFILE Filename 	
+ENDPROCEDURE
+
+
+PROCEDURE ScanIncludes()
+	DECLARE LineOfCode : STRING
+	DECLARE LineNumber : INTEGER
+	// LineNumber +1 so line numbers dont start at 0
+	LineNumber <- LineNumber +1
+	DECLARE IncludedFilename : STRING
+	WHILE NOT EOF("main.pseudo")
+		READFILE MainFile , LineOfCode
+		IncludedFilename <- GetInclude(LineOfCode)
+		// if a file is actually included
+		IF NOT IncludedFilename = "" THEN
+			// append it to the array for later processing
+			OUTPUT  "Including: ", IncludedFilename, " On line ", LineNumber
+			CALL LoadFileContents(IncludedFilename, LineNumber)
+		ENDIF
+		LineNumber <- LineNumber +1
+	ENDWHILE
+CLOSEFILE MainFile
+ENDPROCEDURE
+
+
+PROCEDURE Main()
+	CALL ScanIncludes
+	OPENFILE OutputFilename FOR WRITE
+	OPENFILE MainFile FOR READ
+	DECLARE LineOfCode : STRING
+	DECLARE IncludeFileContents : STRING
+	// how many files have we copied into the output so far
+	DECLARE FilesIncluded : INTEGER
+	// second pass
+	WHILE NOT EOF(MainFile)
+		// array starts at 1 so increment
+		IncludeFileContents<- IncludedFiles[FilesIncluded+1]
+		READFILE MainFile, LineOfCode
+		// if something is included
+		IF NOT GetInclude(LineOfCode) = "" THEN
+			FilesIncluded <- FilesIncluded +1
+			WRITEFILE OutputFilename , IncludeFileContents
+		ELSE // just write the contents of the main file
+			WRITEFILE OutputFilename, LineOfCode  
+		ENDIF
+	ENDWHILE
+ENDPROCEDURE
+
+
+
+
+
+
+CALL Main
+

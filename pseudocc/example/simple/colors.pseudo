@@ -1,0 +1,18 @@
+TYPE Color
+	DECLARE R: INTEGER
+	DECLARE G: INTEGER
+	DECLARE B: INTEGER
+	DECLARE A: INTEGER
+ENDTYPE
+DECLARE Red : Color
+Red.R = 255
+Red.A = 255
+
+DECLARE Green: Color
+Green.G = 255
+Green.A = 255
+
+DECLARE Blue: Color
+Blue.B = 255
+Blue.A = 255
+
